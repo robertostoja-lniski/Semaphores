@@ -5,12 +5,12 @@ There are M buffers, every buffer is of type A B or C ( and there are always buf
 
 # Processes, not threads
 
-Problem is solves using processes - parent is a produer, children are customers.
+Problem is solved using processes - parent is a produer, children are customers.
 Mmap and sh_oper are used in order to share variables, buffers and semaphores
 
 # Posix 
 
-I have decided to use posix semaphores instead of System V.
+I have decided to use posix semaphores instead of System V. They seem to be easier in use :)
 
 # Running
 
